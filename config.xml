@@ -1,0 +1,36 @@
+1  <?xml version="l.0" encoding="UTF-8"?>
+2  <widget xmlns = "http://www.w3.org/ns/widgets"
+3 		xmlns:gap = "http://phonegap.com/ns/1.0"
+4		id   ="com.phonegap.example10"
+5	 	versionCode = "10"
+6 		version ="1.0.0">
+7
+8 <!-- versionCode is optional and Android only -->
+9
+10 	<name>APP1O Piano </name>
+11
+12 	<description>
+13	 Utiliza Plugins de audio con un piano y las 7 notas musicales Junio 2016
+14	 </description>
+16 	<preference name="phonegap-version" value"3.1.0"/>
+17
+18 	<preference name"orientation" value"landscape" />
+20 	<author href"https://build.phonegap.com" email"support@phonegap.com">
+21 	Luis Alberto Ramos Luna
+22	</author>
+23
+24 	<gap:plugin name"org.apache.cordova.device" version"0.2.12" />
+25 	<gap:plugin name"org.apache.cordova.vibration" version"0.3.0" />
+26  <gap:plugin name"org.apache.cordova.dialogs" version"0.2.6" />
+27 	<gap:plugin name"org.apache.cordova.geolocation" version"0.3.10"/>
+28 	<gap:plugin name "org.apache.cordova.device-motion" version"0.2.10"/>
+29	 <!--Plugin Audio-->
+30	<gap:plugin name"com.rjfun.cordova.plugin.lowlatencyaudio" version"l.0" />
+31
+32
+33 	<!--Colocar icono app -->
+34
+35 	<icon src="res/android/mdpi.png"/>
+36
+37 	</widget>
+38
