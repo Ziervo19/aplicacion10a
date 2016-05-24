@@ -17,7 +17,7 @@ audio con piano utiliza las notas musicales
 <preference name="orientation" value="landscape"/>
 
 <author href="https://build.phonegap.com" email="support@phonegap.com">
-Mijael Flores Cerezo
+Luis Alberto Ramos Luna
 </author>
 
 <gap:plugin name="org.apache.cordova.device" version="0.2.12"/>
